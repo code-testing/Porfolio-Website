@@ -4,8 +4,8 @@
 	background-color: #00ffff;
 	margin-left: 2px;
 	margin-right: 2px;
-	padding-left: 4px;
-	padding-right: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 #intro-div {
@@ -13,8 +13,8 @@
 	background-color: #f0f0f0;
 	margin-left: 2px;
 	margin-right: 2px;
-	padding-left: 4px;
-	padding-right: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 #blog-div {
@@ -22,8 +22,8 @@
 	background-color: #ffff00;
 	margin-left: 2px;
 	margin-right: 2px;
-	padding-left: 4px;
-	padding-right: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 #project-ideas-div {
@@ -31,8 +31,8 @@
 	background-color: #ffaaff;
 	margin-left: 2px;
 	margin-right: 2px;
-	padding-left: 4px;
-	padding-right: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 body {
@@ -51,9 +51,16 @@ h2 {
 	color: blue;
 	text-align: center;
 	text-decoration: underline;
+}
+
+h3 {
+
+	text-align: center;
+}
 
 p {
-	color: red;
+	color: black;
+
 }
 
 div {
