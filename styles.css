@@ -35,6 +35,16 @@
 	padding-right: 10px;
 }
 
+#javascript-work {
+	border: 2px solid black;
+	background-color: #aaaaff;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
 body {
 	background-color: grey;
 }
@@ -67,3 +77,4 @@ div {
 
 	border: 2px solid black;
 }
+
