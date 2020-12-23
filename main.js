@@ -58,3 +58,33 @@ ctx5.arc(275, 400, 25, 0, Math.PI * 2, true);
 ctx5.fillStyle = "#c2aabc";
 ctx5.fill();
 ctx5.stroke();
+
+//intro text fade in
+var opacity = 0;
+var IntervalID = 0;
+window.onload = textFadeIn;
+
+function textFadeIn() {
+	setInterval(showText, 200);
+}
+
+function showText() {
+
+	var introText1 = document.getElementById("intro-text1");
+	var introText2 = document.getElementById("intro-text2");
+	var introText3 = document.getElementById("intro-text3");
+	var introText4 = document.getElementById("intro-text4");
+	if (opacity < 1) {
+	opacity = opacity + 0.1;
+	introText1.style.opacity = opacity;
+
+	introText2.style.opacity = opacity;
+
+	introText3.style.opacity = opacity;
+
+	introText4.style.opacity = opacity;
+	} else {
+		clearInterval(IntervalID);
+	}
+}
+
