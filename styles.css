@@ -99,9 +99,9 @@
 }
 
 #canvas-div {
-   width: 100%;
-   text-align:center;
-border: none;
+   	width: 100%;
+   	text-align:center;
+	border: none;
 
 }
 
@@ -121,7 +121,7 @@ head {
 }
 
 h1 {
-
+	font-family: arial, serif;
 }
 
 h2 {
@@ -129,15 +129,18 @@ h2 {
 	color: blue;
 	text-align: center;
 	text-decoration: underline;
+	font-family: arial, serif;
 }
 
 h3 {
 
 	text-align: center;
+	font-family: arial, serif;
 }
 
 p {
 	color: black;
+	font-family: arial, serif;
 
 }
 
