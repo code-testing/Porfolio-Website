@@ -1,59 +1,127 @@
 #title-div {
-
+	font-family: arial, sans-serif;
 	border: 2px solid black;
-	background-color: #00ffff;
+	background-color: #00aaff;
 	margin-left: 2px;
 	margin-right: 2px;
 	padding-left: 10px;
 	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: right;
 }
 
 #intro-div {
-	border: 2px solid black;
+	border: 2px hidden black;
 	background-color: #f0f0f0;
 	margin-left: 2px;
 	margin-right: 2px;
 	padding-left: 10px;
 	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 #blog-div {
+	
+	height: 500px;
+	flex-grow: 1;
+	overflow: auto;
 	border: 2px solid black;
 	background-color: #ffff00;
 	margin-left: 2px;
 	margin-right: 2px;
 	padding-left: 10px;
 	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 #project-ideas-div {
+	height: 500px;
+	flex-grow: 1;
+	overflow: auto;
 	border: 2px solid black;
 	background-color: #ffaaff;
 	margin-left: 2px;
 	margin-right: 2px;
 	padding-left: 10px;
 	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 #javascript-work {
 	border: 2px solid black;
 	background-color: #aaaaff;
+	overflow: auto;
 	margin-left: 2px;
 	margin-right: 2px;
 	padding-left: 10px;
 	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.container {
+	display: flex;
+	border:none;
 }
 
 
+#title-div {
+
+	color: 111100;
+	text-align: left;
+	border: none;
+	top: 0;
+	left: 0;
+	width: 100%;
+	transition: box-shadow;
+	box-sizing: border-box;
+
+	
+}
+
+#title {
+	color: 111100;
+	font-family: arial, serif;
+	text-align: left:
+}
+
+#prac-canvas {
+	width: 500px;
+	height: 500px;
+	background-color: white;
+	align: center;
+	
+
+}
+
+#canvas-div {
+   width: 100%;
+   text-align:center;
+border: none;
+
+}
+
+
+border: none
+	text-align: center;
+}	
+
 body {
-	background-color: grey;
+	background-color: dddddd;
+	font-family: arial, serif;
+}
+
+head {
+
+	width: 100%;
 }
 
 h1 {
 
-	color: red;
-	text-align: center;
-	text-decoration: underline;
 }
 
 h2 {
@@ -77,4 +145,4 @@ div {
 
 	border: 2px solid black;
 }
-
+ 
