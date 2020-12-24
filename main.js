@@ -30,31 +30,31 @@ var ctx3 = canvas.getContext("2d");
 var ctx4 = canvas.getContext("2d");
 var ctx5 = canvas.getContext("2d");
 ctx1.beginPath();
-ctx1.arc(150, 150, 25, 0, Math.PI * 2, true);
+ctx1.arc(randX(), randY(), 25, 0, Math.PI * 2, true);
 ctx1.fillStyle = "#000000";
 ctx1.fill();
 ctx1.stroke();
 
 ctx2.beginPath();
-ctx2.arc(250, 300, 25, 0, Math.PI * 2, true);
+ctx2.arc(randX(), randY(), 25, 0, Math.PI * 2, true);
 ctx2.fillStyle = "#ff00ff";
 ctx2.fill();
 ctx2.stroke();
 
 ctx3.beginPath();
-ctx3.arc(450, 200, 25, 0, Math.PI * 2, true);
+ctx3.arc(randX(), randY(), 25, 0, Math.PI * 2, true);
 ctx3.fillStyle = "#ffaaff";
 ctx3.fill();
 ctx3.stroke();
 
 ctx4.beginPath();
-ctx4.arc(100, 375, 25, 0, Math.PI * 2, true);
+ctx4.arc(randX(), randY(), 25, 0, Math.PI * 2, true);
 ctx4.fillStyle = "#3300aa";
 ctx4.fill();
 ctx4.stroke();
 
 ctx5.beginPath();
-ctx5.arc(275, 400, 25, 0, Math.PI * 2, true);
+ctx5.arc(randX(), randY(), 25, 0, Math.PI * 2, true);
 ctx5.fillStyle = "#c2aabc";
 ctx5.fill();
 ctx5.stroke();
@@ -88,3 +88,18 @@ function showText() {
 	}
 }
 
+
+//************random X, Y coordinate generator
+function randX(){
+
+var randNumX = Math.random() * 400 + 100;
+
+return randNumX;
+}
+
+function randY(){
+
+var randNumY = Math.random() * 400 + 100;
+
+return randNumY;
+}
