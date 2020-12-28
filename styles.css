@@ -25,7 +25,7 @@
 }
 
 #blog-div {
-	
+
 	height: 500px;
 	flex-grow: 1;
 	overflow: auto;
@@ -70,7 +70,7 @@
 
 .container {
 	display: flex;
-	border:none;
+	border: none;
 }
 
 
@@ -86,13 +86,13 @@
 	transition: box-shadow;
 	box-sizing: border-box;
 
-	
+
 }
 
 #title {
-  	background: -webkit-linear-gradient(#D6B57A, #C1D1D4);
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
+	background: -webkit-linear-gradient(#D6B57A, #C1D1D4);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	font-family: arial, serif;
 	text-align: left:
 }
@@ -102,37 +102,36 @@
 	height: 500px;
 	background-color: white;
 	align: center;
-	
+
 
 }
 
-#dot-game{
+#dot-game {
 	width: 500px;
 	height: 500px;
 	background-color: white;
 	align: center;
-	
+
 
 }
 
 #canvas-div {
-   	width: 100%;
-   	text-align:center;
+	width: 100%;
+	text-align: center;
 	border: none;
 
 }
 
 #dot-canvas-div {
-   	width: 100%;
-   	text-align:center;
+	width: 100%;
+	text-align: center;
 	border: none;
 
 }
 
 
-border: none
-	text-align: center;
-}	
+border: none text-align: center;
+}
 
 body {
 	background-color: #252C3B;
@@ -173,13 +172,8 @@ div {
 
 	border: 2px solid black;
 }
- 
+
 
 /*
 /* CSS HEX */
-252C3B
-304259
-6E90BB
-C1D1D4
-D6B57A
-*/
+252C3B 304259 6E90BB C1D1D4 D6B57A */

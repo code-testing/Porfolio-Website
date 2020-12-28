@@ -1,22 +1,23 @@
+
 const myHeading = document.querySelector('h3');
 myHeading.textContent = "THIS TEXT CAN BE FADED BY A CLICK OF A BUTTON";
 var val = 1.0;
 function fadeFunction() {
-	
+
 	document.getElementById("js-heading").style.opacity = val;
-	if(val <= 0) {
-	val = 0;
-	}else{
-	val = val/2;
+	if (val <= 0) {
+		val = 0;
+	} else {
+		val = val / 2;
 	}
 }
 
 function unfadeFunction() {
 	document.getElementById("js-heading").style.opacity = val;
-	if(val >= 1) {
-	val = 1.0;
-	}else{
-	val = val*2;
+	if (val >= 1) {
+		val = 1.0;
+	} else {
+		val = val * 2;
 	}
 }
 
@@ -75,14 +76,14 @@ function showText() {
 	var introText3 = document.getElementById("intro-text3");
 	var introText4 = document.getElementById("intro-text4");
 	if (opacity < 1) {
-	opacity = opacity + 0.1;
-	introText1.style.opacity = opacity;
+		opacity = opacity + 0.1;
+		introText1.style.opacity = opacity;
 
-	introText2.style.opacity = opacity;
+		introText2.style.opacity = opacity;
 
-	introText3.style.opacity = opacity;
+		introText3.style.opacity = opacity;
 
-	introText4.style.opacity = opacity;
+		introText4.style.opacity = opacity;
 	} else {
 		clearInterval(IntervalID);
 	}
@@ -90,16 +91,16 @@ function showText() {
 
 
 //************random X, Y coordinate generator
-function randX(){
+function randX() {
 
-var randNumX = Math.random() * 400 + 100;
+	var randNumX = Math.random() * 400 + 100;
 
-return randNumX;
+	return randNumX;
 }
 
-function randY(){
+function randY() {
 
-var randNumY = Math.random() * 400 + 100;
+	var randNumY = Math.random() * 400 + 100;
 
-return randNumY;
+	return randNumY;
 }

@@ -12,29 +12,29 @@ ctx.fill();
 ctx.stroke();
 
 
-function drawDot(countdown){
-ctx.clearRect(0, 0, 500, 500);
-ctx.beginPath();
-ctx.arc(randX(), randY(), 25, 0, Math.PI * 2, true);
-ctx.fillStyle = "#555555";
-ctx.fill();
-ctx.stroke();
-countdown = countdown - 200;
+function drawDot(countdown) {
+	ctx.clearRect(0, 0, 500, 500);
+	ctx.beginPath();
+	ctx.arc(randX(), randY(), 25, 0, Math.PI * 2, true);
+	ctx.fillStyle = "#555555";
+	ctx.fill();
+	ctx.stroke();
+	countdown = countdown - 200;
 }
 
 window.clearInterval();
 window.setInterval(drawDot, countdown);
 
 //************random X, Y coordinate generator
-function randX(){
+function randX() {
 
-var randNumX = Math.random() * 400 + 100;
+	var randNumX = Math.random() * 400 + 100;
 
-return randNumX;
+	return randNumX;
 }
 
-function randY(){
+function randY() {
 
-var randNumY = Math.random() * 400 + 100;
-return randNumY;
+	var randNumY = Math.random() * 400 + 100;
+	return randNumY;
 }
