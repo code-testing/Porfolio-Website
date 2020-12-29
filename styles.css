@@ -194,6 +194,13 @@ div {
 }
 
 
+@font-face{
+
+	font-family: Permanent Marker;
+	src: url(PermanentMarker-Regular.ttf);
+}
+
+
 /*
 /* CSS HEX */
 252C3B 304259 6E90BB C1D1D4 D6B57A */
