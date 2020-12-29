@@ -1,3 +1,10 @@
+@font-face{
+
+	font-family: 'Permanent Marker', cursive;
+	src: url(PermanentMarker-Regular.ttf);
+}
+
+
 #title-div {
 	font-family: 'Permanent Marker', cursive;
 	border: 2px solid black;
@@ -164,7 +171,7 @@ head {
 }
 
 h1 {
-	font-family: arial, serif;
+	font-family: 'Permanent Marker', cursive;
 	color: #D6B57A;
 }
 
@@ -194,11 +201,7 @@ div {
 }
 
 
-@font-face{
 
-	font-family: Permanent Marker;
-	src: url(PermanentMarker-Regular.ttf);
-}
 
 
 /*
